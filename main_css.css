@@ -2,13 +2,9 @@
 	display: grid;
 	grid-template-areas:
 		'header header header header header'
-		'aside section section section section'
+		'aside section section section aside'
+		'aside section section section aside'
+		'aside section section section aside'
 		'footer footer footer footer footer';
 	grid-gap: 10px;
-	background-color: #2196F3;
-	padding: 10px;
-}
-
-.header {
-	background-color: red;
 }

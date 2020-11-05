@@ -1,6 +1,7 @@
 .grid-container {
 	display: grid;
 	grid-template-areas:
+		'nav nav nav nav nav'
 		'header header header header header'
 		'aside section section section section'
 		'footer footer footer footer footer';
