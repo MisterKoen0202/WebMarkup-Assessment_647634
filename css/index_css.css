@@ -15,6 +15,14 @@
 	padding: 10px;
 }
 
+#title{
+	grid-area: title;
+}
+
+#payoff {
+	grid-area: payoff;
+}
+
 #nav {
 	grid-area: nav;
 }
