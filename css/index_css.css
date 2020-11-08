@@ -50,7 +50,7 @@
 	
 }
  
-#header {
+#video {
 	background-color: red;
 	grid-area: header;
 }
@@ -138,11 +138,14 @@
 	grid-area: nav;
 	
 }
- 
-#header {
+	
+#video {
 	background-color: red;
 	grid-area: header;
+	width: 100%;
 }
+
+
 
 #article0 {
 	grid-area: article0;
@@ -162,6 +165,7 @@
 
 #aside {
 	grid-area: aside;
+	display: none;
 }
 #logo{
 	grid-area: logo;
@@ -208,7 +212,7 @@
 	display: none;
 }
  
-#header {
+#video {
 	background-color: red;
 	grid-area: header;
 	display: none;
